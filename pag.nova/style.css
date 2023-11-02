@@ -1,0 +1,82 @@
+:root{
+    --background-principal:aqua;
+    --background-fundo-rodape:url(img/fundo-rodape.jpg);
+}
+body{
+    background-image: url(img/fundo1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#caixa{
+    width: 1000px;
+    height: 1024px;
+    margin: auto;
+    position: relative;
+
+}
+header{
+    width: 100%;
+    height: 290px;
+    position: relative;
+}
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color: var(--background-principal);
+    position: absolute;
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 20px;
+}
+.flex-container{
+    display: flex;
+    position: absolute;
+    margin-top: -3px;
+    padding: 5px;
+    
+    
+}
+.buttom{
+    width: 80px;
+    height: 40px;
+    list-style: none;
+    margin-left: 50px;
+    text-align: center;
+    
+}
+#banner1{
+   margin-top: 40px;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+}
+#cxCorpo{
+   
+    width: 710px;
+    height: 750px;
+    position: absolute;
+}
+.corpo{
+    display: flex;
+    
+    
+}
+.procurado1{
+    width: 180px;
+    height: 180px;
+    margin: 2px;
+}
+
+#lateral{
+    width: 290px ;
+    height: 730px;
+    position: absolute;
+    margin-left: 710px;
+    
+   
+}
+#rodape{
+    width: 100%;
+    height: 200px;
+}
